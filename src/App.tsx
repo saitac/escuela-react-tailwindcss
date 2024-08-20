@@ -1,11 +1,13 @@
 import './App.css'
 import LayoutAspectRatio from './components/LayoutAspectRatio'
 import LayoutBoxDecorationBreak from './components/LayoutBoxDecorationBreak'
+import LayoutBoxSizing from './components/LayoutBoxSizing'
 import LayoutBreakAfter from './components/LayoutBreakAfter'
 import LayoutBreakBefore from './components/LayoutBreakBefore'
 import LayoutBreakInside from './components/LayoutBreakInside'
 import LayoutColumns from './components/LayoutColumns'
 import LayoutContainer from './components/LayoutContainer'
+import LayoutDisplay from './components/LayoutDisplay'
 
 function App() {
 
@@ -20,13 +22,14 @@ function App() {
       <LayoutBreakAfter/>
       <LayoutBreakBefore/>
       <LayoutBreakInside/>
+      <LayoutBoxDecorationBreak/>
+      <LayoutBoxSizing/>
 
       */}
       
       
       
-      
-      <LayoutBoxDecorationBreak/>
+      <LayoutDisplay/>
     </>
   )
 }
