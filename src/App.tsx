@@ -8,6 +8,7 @@ import LayoutBreakInside from './components/LayoutBreakInside'
 import LayoutColumns from './components/LayoutColumns'
 import LayoutContainer from './components/LayoutContainer'
 import LayoutDisplay from './components/LayoutDisplay'
+import { LayoutFloats } from './components/LayoutFloats'
 
 function App() {
 
@@ -24,12 +25,14 @@ function App() {
       <LayoutBreakInside/>
       <LayoutBoxDecorationBreak/>
       <LayoutBoxSizing/>
+      <LayoutDisplay/>
 
       */}
       
       
       
-      <LayoutDisplay/>
+      
+      <LayoutFloats/>
     </>
   )
 }
